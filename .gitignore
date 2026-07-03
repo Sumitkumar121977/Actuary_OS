@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+backend/.env
+.env
+
+# Database
+*.db
+
+# Generated Reports
+generated_report.pdf
+backend/generated_report.pdf
+
+# Uploads
+backend/uploads/
+
+# Vector Database
+backend/vectorstore/chroma_db/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
